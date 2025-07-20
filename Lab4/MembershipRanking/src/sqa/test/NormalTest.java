@@ -28,19 +28,20 @@ class NormalTest {
 
 	private static Stream<Arguments> provideParameStream() {
 		return Stream.of(
-				Arguments.of(55000, 4, 100, "Standard"),
-				Arguments.of(55000, 4, 101, "Standard"),
-				Arguments.of(55000, 4, 550, "Standard"),
-				Arguments.of(55000, 4, 999, "Gold"),
-				Arguments.of(55000, 4, 1000, "Gold"),
-				Arguments.of(55000, 1, 550, "Standard"),
-				Arguments.of(55000, 2, 550, "Standard"),
-				Arguments.of(55000, 6, 550, "Standard"),
-				Arguments.of(55000, 7, 550, "Standard"),
-				Arguments.of(10000, 4, 550, "Standard"),
-				Arguments.of(10001, 4, 550, "Standard"),
-				Arguments.of(99999, 4, 550, "Gold"),
-				Arguments.of(10000, 4, 550, "Standard"));
+				Arguments.of(50000, 4, 0, "Standard"),
+				Arguments.of(50000, 4, 1, "Standard"),
+				Arguments.of(50000, 4, 500, "Gold"),
+				Arguments.of(50000, 4, 999, "Gold"),
+				Arguments.of(50000, 4, 1000, "Gold"),
+				Arguments.of(50000, 0, 500, "Standard"),
+				Arguments.of(50000, 1, 500, "Silver"),
+				Arguments.of(50000, 6, 500, "Standard"),
+				Arguments.of(50000, 7, 500, "Standard"),
+				Arguments.of(0, 4, 500, "Standard"),
+				Arguments.of(1, 4, 500, "Standard"),
+				Arguments.of(99999, 4, 500, "Gold"),
+				Arguments.of(10000, 4, 500, "Standard")
+				);
 	}
 
 }
