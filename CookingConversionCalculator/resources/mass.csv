@@ -1,0 +1,8 @@
+value,fromUnit,toUnit,expectedResult
+2,cup,gram,250
+8,tablespoon,gram,64
+5,teaspoon,gram,15
+3,oz,gram,85.047
+3,pound,kilogram,1.362
+4,gram,oz,0.14
+3,kilogram,pound,6.615

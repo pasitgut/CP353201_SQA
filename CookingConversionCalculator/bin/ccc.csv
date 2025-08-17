@@ -1,0 +1,4 @@
+value,choice,fromUnit,toUnit,expectedResult
+8,mass,tablespoon,gram,64
+4,liquid,teaspoon,ml,20
+86,temperature,fahrenheit,celsius,30

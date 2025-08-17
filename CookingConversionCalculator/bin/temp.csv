@@ -1,0 +1,3 @@
+value,fromUnit,toUnit,expectedResult
+86,fahrenheit,celsius,30
+30,celsiusfahrenheit,fahrenheit,86

@@ -1,0 +1,4 @@
+value,choice,fromUnit,toUnit,expectedResult
+2,mass,cup,gram,250
+1,liquid,cup,ml,250
+30,temperature,celsiusfahrenheit,fahrenheit,86
