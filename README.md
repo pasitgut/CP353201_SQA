@@ -1,1 +1,3 @@
-# All Lab of Software Quality Assurance (CP353201)
+# Lab 12
+
+## นายพสิษฐ์ ผลวิเศษพรสุข 663380020-7 sec01
